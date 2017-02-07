@@ -6,7 +6,6 @@
 [![Preview the app](https://img.shields.io/badge/Preview-Appetize.io-orange.svg)](https://appetize.io/app/2rfx5pavny47jnb1qzwg204fr8)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d32f87844a9346d09f3e8ad09600d3e1)](https://www.codacy.com/app/dev_19/open-event-android?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/open-event-android&amp;utm_campaign=Badge_Grade)
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](mailto: fossasia@googlegroups.com)
-[![Hosted on DigitalOcean](/docs/badges/digitalocean.png)](http://digitalocean.com)
 
 
 The Open Event Android project consists of two components. The **App Generator** is a web application that is hosted on a server and generates an event Android app from a zip with JSON and binary files ([examples here](http://github.com/fossasia/open-event)) or through an API. The second component we are developing in the project is a generic **Android app** - the output of the app generator. The mobile app can be installed on any Android device for browsing information about the event. Updates can be made automatically through API endpoint connections from an online source (e.g. server), which needs to defined in the provided event zip with the JSON files. The Android app has a standard configuration file, that sets the details of the app (e.g. color scheme, logo of event, link to JSON app data).
@@ -33,7 +32,12 @@ A sample app for testing purposes is automatically built after commits in the re
 
 ### Screenshots of a sample Android app
 
-![alt-tag](docs/screenshots/ss.png)
+<img src="docs/screenshots/device-2017-01-31-TracksActivity.png" height = '480' width="270">
+<img src="docs/screenshots/device-2017-01-31-TrackSessionActivity.png" height = '480' width="270">
+<img src="docs/screenshots/device-2017-01-31-SessionDetailActivity.png" height = '480' width="270">
+<img src="docs/screenshots/device-2017-01-31-204519-SpeakersFragment.png" height = '480' width="270">
+<img src="docs/screenshots/device-2017-01-31-MapFragment.png" height = '480' width="270">
+<img src="docs/screenshots/device-2017-01-31-NavigationDrawer.png" height = '480' width="270">
 
 ### Android App Development Set up
 
@@ -79,7 +83,7 @@ Please find info about the set up of the Android app in your development environ
 - Android SDK
 - Redis
 
-Setup and installation instructions can be obtained [here](https://github.com/niranjan94/open-event-android/tree/development/apk-generator/v2).
+Setup and installation instructions can be obtained [here](https://github.com/niranjan94/open-event-android/tree/development/docs/installation).
 
 ## Contributions, Bug Reports, Feature Requests
 
